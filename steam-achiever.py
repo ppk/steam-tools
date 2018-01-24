@@ -98,6 +98,7 @@ class SteamAchiever:
 
 if __name__ == '__main__':
 
+  
   parser = optparse.OptionParser()
   parser.add_option('-r', '--refresh', action='store_true', default=False, help='Force refresh of cached games and achievements')
   parser.add_option('-s', '--sortby', dest='sortby', default='percent', help='Set sort order of achievements, "percent" or "total"')
